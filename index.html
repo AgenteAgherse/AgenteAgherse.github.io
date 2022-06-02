@@ -51,6 +51,11 @@
         .titulo-certificado{
             font-size: 1.3em;
         }
+
+        .texto-claro{
+            color: #11141a;
+        }
+
     </style>
 </head>
 <body>
@@ -62,8 +67,8 @@
     
     
     -->
-    <nav class="navbar navbar-dark text-light justify-content-center" style="background-color: #303745;">
-        <div class="container-fluid">
+    <nav class="navbar navbar-dark text-light" style="background-color: #303745;">
+        <div class="container-fluid ">
             <!--IMAGEN DE LA HOJA DE VIDA-->
             <div class="col-sm-12 col-md-2" style="height: 10em; width:10em; margin:1%">
                 <img src="https://scontent.fctg1-3.fna.fbcdn.net/v/t1.6435-9/209462404_3925704560892068_2310743906397357263_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFFNF9y3txPaz7LF20c727mEht3W3BI5D8SG3dbcEjkP3Bpm9Hd-zZ2HNLNVqLSToW_U73DKD6K0-yUqc7063xo&_nc_ohc=CKYyzk8Pw4AAX8ArBaI&_nc_ht=scontent.fctg1-3.fna&oh=00_AT-QVxdFk8fb-4GEVg_WORJLDFveHOd-gjNByyL8eJi4ww&oe=62BC2DD7" alt="" width="100%" style="border-radius: 50%;">
@@ -153,7 +158,7 @@
                 <dl class="text-justify">
                     <dt class="titulo-certificado">Fecha de Nacimiento</dt>
                     <dd>
-                        <img src="https://img.icons8.com/office/344/birthday.png" alt="birthday" width="6%" height="6%">
+                        <img src="https://img.icons8.com/office/344/birthday.png" alt="birthday" width="3%" height="3%">
                         13/Enero/2001
                     </dd>
                     <dt class="titulo-certificado">Lugar de Nacimiento</dt>
@@ -164,10 +169,27 @@
                     </dd>
                     <dt class="titulo-certificado">Nacionalidad</dt>
                     <dd>
-                        <img src="https://img.icons8.com/dotty/344/filled-flag.png"
+                        <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/344/external-colombia-flags-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"
                                 alt="country" style="width: 1em; height: 1em;">
                         Colombia.
                     </dd>
+                </dl>
+
+                <h2 class="titulo text-center">Idiomas</h2>
+                <dl>
+                    <dt class="titulo-certificado">
+                        <img src="https://img.icons8.com/color/344/spain-2.png"
+                                alt="country" style="width: 1em; height: 1em;">
+                        Español
+                    </dt>
+                    <dd class="texto">Nativo</dd>
+
+                    <dt class="titulo-certificado">
+                        <img src="https://img.icons8.com/color/344/great-britain.png"
+                                alt="country" style="width: 1em; height: 1em;">
+                        Inglés
+                    </dt>
+                    <dd class="texto">Intermedio - B1/B2</dd>
                 </dl>
             </aside>
 
@@ -197,9 +219,24 @@
                         </dd>
     
                         <dt class="titulo-certificado">Curso de SQL y MySQL</dt>
-                        <dd id="texto">
+                        <dd class="texto">
                             https://platzi.com/p/MrAgustin/curso/1272-sql-mysql/diploma/detalle/ <i>Mayo/2022.</i>
                         </dd>
+                    </dl>
+                </section>
+
+                <section id="Referencias">
+                    <h2 class="titulo text-center">Referencias</h2>
+                    <dl>
+                        <dt id="titulo">Agustín Ambrosio Hernández López</dt>
+                        <dd class="texto-claro">Independiente. Corregimiento Tierralta - Lorica, Córdoba</dd>
+                        <dd class="texto">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiMzNDk4ZGIiPjxwYXRoIGQ9Ik0zMS44NDQwOCwyMS41Yy01LjcxMDk0LDAgLTEwLjM0NDA4LDQuNjM2NjQgLTEwLjM0NDA4LDEwLjM0NDA4YzAsNjUuNDIzODMgNTMuMjMyMDksMTE4LjY1NTkyIDExOC42NTU5MywxMTguNjU1OTJjNS43MTA5NCwwIDEwLjM0NDA3LC00LjYzNjY0IDEwLjM0NDA3LC0xMC4zNDQwN3YtMjMuNjI3NmMwLC01LjcwNzQ0IC00LjYzMzE0LC0xMC4zNTgwOCAtMTAuMzQ0MDcsLTEwLjM1ODA4Yy03LjkwMTUzLDAgLTE1LjY2MzA5LC0xLjIzODc3IC0yMy4wMTE3MiwtMy42NjczMmMtMy42NjczMiwtMS4yNTYyNyAtNy44MTc1NCwtMC4yODM0NCAtMTAuMjE4MSwyLjE1NTZsLTE0LjUwMTMxLDEwLjk1OTk1Yy0xNi44MTc4NywtOC45NzkzMiAtMjcuMTgyOTQsLTE5LjM0NzkgLTM2LjA0MzI5LC0zNi4wNDMyOWwxMC42MzgwMiwtMTQuMTIzMzhjMi43NjQ0OSwtMi43NjQ0OSAzLjczNzMsLTYuNzg4NzQgMi41NDc1MywtMTAuNTU0MDRjLTIuNDM1NTUsLTcuMzk3NjIgLTMuNjgxMzEsLTE1LjE2NjE4IC0zLjY4MTMxLC0yMy4wNTM3MWMwLC01LjcwNzQ0IC00LjYzMzE0LC0xMC4zNDQwOCAtMTAuMzQ0MDgsLTEwLjM0NDA4ek0zMS44NDQwOCwyOC42NjY2N2gyMy42OTc1OWMxLjc1NjY3LDAgMy4xNzc0MSwxLjQyMDc0IDMuMTc3NDEsMy4xNzc0MWMwLDguNjUzODkgMS4zNjQ3NSwxNy4xNjc4MSA0LjAzMTI1LDI1LjI1MTNjMC4zNzA5MywxLjE3OTI4IDAuMDY5OTksMi40MTQ1NSAtMS4xMzM3OSwzLjY2NzMybC0xMi4zMzE3MSwxNi4zMDY5NmMtMC44MjU4NSwxLjA5MTggLTAuOTQ0ODIsMi41NTgwMyAtMC4zMjE5NCwzLjc3OTNjMTAuMDU3MTMsMTkuNzYwODIgMjIuMjY5ODYsMzEuOTgwNTUgNDIuMTc0MTUsNDIuMTc0MTZjMS4yMTA3NywwLjYyOTg4IDIuNjg3NSwwLjUxMDkgMy43OTMzLC0wLjMyMTk0bDE2LjY4NDksLTEyLjYzOTY1YzAuODYwODQsLTAuODQ2ODQgMi4xMjA2LC0xLjEzMzc5IDMuMjQ3NCwtMC43NTU4NmM4LjExMTQ5LDIuNjgwNTEgMTYuNjE0OTEsNC4wMzEyNSAyNS4yNzkzLDQuMDMxMjVjMS43NTY2NywwIDMuMTkxNCwxLjQzNDc0IDMuMTkxNCwzLjE5MTQxdjIzLjYyNzZjMCwxLjc1NjY3IC0xLjQyMDczLDMuMTc3NDEgLTMuMTc3NDEsMy4xNzc0MWMtNjEuNDY5NTcsMCAtMTExLjQ4OTI2LC01MC4wMTYyIC0xMTEuNDg5MjYsLTExMS40ODkyNmMwLC0xLjc1NjY3IDEuNDIwNzQsLTMuMTc3NDEgMy4xNzc0MSwtMy4xNzc0MXpNOTYuNzUsMjguNzc4NjVjLTUuOTI3ODksMCAtMTAuNzUsNC44MjIxIC0xMC43NSwxMC43NXY1MC4wNTQ2OWMwLDEuNDQ4NzMgMC44NzQ4NCwyLjc2NDQ4IDIuMjExNTksMy4zMTczOWMwLjQ0MDkxLDAuMTg1NDcgMC45MDk4MywwLjI2NTk1IDEuMzcxNzQsMC4yNjU5NWMwLjkzMDgzLDAgMS44NDc2NiwtMC4zNjM5MyAyLjUzMzUzLC0xLjA0OThsMTMuMjgzNTIsLTEzLjI4MzUzaDM0LjIzNzYzYzUuOTI3ODksMCAxMC43NSwtNC44MjIxMSAxMC43NSwtMTAuNzV2LTI4LjU1NDY5YzAsLTUuOTI3OSAtNC44MjIxMSwtMTAuNzUgLTEwLjc1LC0xMC43NXpNOTYuNzUsMzUuOTQ1MzFoNDIuODg4MDJjMS45NzM2NCwwIDMuNTgzMzMsMS42MDYyIDMuNTgzMzMsMy41ODMzM3YyOC41NTQ2OWMwLDEuOTc3MTMgLTEuNjA5NywzLjU4MzMzIC0zLjU4MzMzLDMuNTgzMzNoLTM1LjcyMTM1Yy0wLjk1MTgyLDAgLTEuODYxNjYsMC4zNzc5MyAtMi41MzM1MywxLjA0OThsLTguMjE2NDcsOC4yMTY0OHYtNDEuNDA0M2MwLC0xLjk3NzEzIDEuNjA5NywtMy41ODMzMyAzLjU4MzMzLC0zLjU4MzMzeiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+"
+                                alt="phone" style="width: 1em; height: 1em;">
+                            +57 (300)-5350815
+                        </dd>
+
+
                     </dl>
                 </section>
             </article>
