@@ -1,0 +1,42 @@
+li{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.redes-sociales li{
+    display: inline;
+}
+
+.titulo{
+    color: black;
+    font-size: 1.9em;
+    margin-bottom: 3px;
+    font-weight: bolder;
+}
+
+.texto{
+    margin-left: 2%; 
+    color: black; 
+    
+}
+
+    .texto-perfil{
+        color: black; 
+        
+    }
+
+dd{
+    font-weight: bolder;
+    margin-left: 2%;
+}
+
+.titulo-certificado{
+    font-size: 1.3em;
+}
+
+.texto-claro{
+    color: #11141a;
+}
