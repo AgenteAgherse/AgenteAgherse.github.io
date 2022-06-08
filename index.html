@@ -16,7 +16,7 @@
     
     <link rel="stylesheet" href="CSS/custom.css">
 </head>
-<body>
+<body onload="catalogo()">
 
     <!--
         
@@ -25,16 +25,16 @@
     
     
     -->
-    <nav class="navbar navbar-dark text-light" style="background-color: #303745;">
-        <div class="container-fluid ">
+    <nav class="navbar navbar-dark text-light text-center" style="background-color: #303745;">
+        <div class="container-fluid">
             <!--IMAGEN DE LA HOJA DE VIDA-->
-            <div class="col-sm-12 col-md-2" style="height: 10em; width:10em; margin:1%">
-                <img src="https://media-exp1.licdn.com/dms/image/D5635AQGgeLuUEwBRMg/profile-framedphoto-shrink_200_200/0/1654480518949?e=1655085600&v=beta&t=eDOEii4XVxH0_QcSb932zSqQFxqX58xvpc9DvvXARTA" alt="Profile Photo" width="100%" style="border-radius: 50%;">
+            <div class="col-12 col-sm-12 col-lg-2 mx-auto" style="height: 10em; width:10em; margin:1%;">
+                    <img class="mx-auto d-block" src="https://media-exp1.licdn.com/dms/image/D5635AQGgeLuUEwBRMg/profile-framedphoto-shrink_200_200/0/1654480518949?e=1655085600&v=beta&t=eDOEii4XVxH0_QcSb932zSqQFxqX58xvpc9DvvXARTA" alt="Profile Photo" width="100%" style="border-radius: 50%;">
             </div>
             
             <!--LISTA DE DATOS-->
             <div class="col-sm-12 col-md-8">
-                <div class="row" style="font-size: 3em; font-weight: 900;">
+                <div style="font-size: 3em; font-weight: 900;">
                         AGUSTÍN HERNÁNDEZ SERPA
                 </div>
                 <div class="row">
@@ -59,31 +59,28 @@
                 
             </div>
 
-            <div class="col-sm-12 col-md-2">
-                <div class="row" style="font-size: 1.5em;">
+            <div class="col-12 col-sm-12 col-md-2">
+                <div style="font-size: 1.5em;">
                     Redes Sociales
                 </div>
-                <div class="row">
+                <div>
                     <span>
                     <a href="https://www.facebook.com/agustin.hernandezserpa/">
                         <img src="https://img.icons8.com/color/344/facebook-new.png"
-                        alt="facebook" style="width: 1.5em; height: 1.5em;">
+                        alt="facebook" style="width: 2em; height: 2em;">
                     </a>
-                        Facebook
                     </span>
                     <span>
                         <a href="https://www.instagram.com/agente_agherse/">
                             <img src="https://img.icons8.com/fluency/344/instagram-new.png"
-                            alt="Instagram" style="width: 1.5em; height: 1.5em;">
+                            alt="Instagram" style="width: 2em; height: 2em;">
                         </a>
-                            Instagram
                     </span>
                     <span>
                         <a href="https://www.linkedin.com/in/agustín-hernández-serpa-559565186/">
                             <img src="https://img.icons8.com/fluency/344/linkedin-circled.png"
-                            alt="Linkedin" style="width: 1.5em; height: 1.5em;">
+                            alt="Linkedin" style="width: 2em; height: 2em;">
                         </a>
-                            Linkedin
                     </span>
                 </div>
             </div>
@@ -111,7 +108,7 @@
     -->
     <div class="container mt-4">
         <div class="row">
-            <aside class="col-sm-12 col-md-3">
+            <aside class="col-sm-12 col-lg-3">
                 <h2 class="titulo text-center">Datos Personales</h2>
                 <dl class="text-justify">
                     <dt class="titulo-certificado">Fecha de Nacimiento</dt>
@@ -155,7 +152,7 @@
                     PERFIL
 
                 -->
-            <article class="col-sm-12 col-md-8">
+            <article class="col-sm-12 col-lg-8">
                 <section id="perfil-personal">
                     <dl class="text-justify">
                         <dt class="titulo text-center">Perfil</dt>
@@ -189,44 +186,7 @@
                         </dd>
                     </dl>
 
-                        <div class="row">
-                            <div class="text-center col-12 col-lg-6">
-                                <div class="card  m-2">
-                                    <div class="card-header bg-dark text-light">
-                                        <h3 class="card-title" style="font-weight:bolder;">Curso de SCRUM</h3>
-                                    </div>
-                                    <div class="card-body">
-                                        <img src="img/courses-diploma/diploma-scrum_page-0001.jpg" alt="Diploma SCRUM"width="100%" height="100%">
-                                        <p class="card-text" style="font-weight: bolder;">Diploma recibido en <i>Junio/2022</i></p>
-                                        <button class="btn btn-success" href="https://platzi.com/p/MrAgustin/curso/1750-scrum/diploma/detalle/">Ir A Diploma</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="text-center col-12 col-lg-6">
-                                <div class="card m-2">
-                                    <div class="card-header bg-dark text-light">
-                                        <h3 class="card-title" style="font-weight:bolder;">Curso de SQL y MySQL</h3>
-                                    </div>
-                                    <div class="card-body">
-                                        <img src="img/courses-diploma/diploma-sql-mysql (1)_page-0001.jpg" alt="Diploma MySQL"width="100%" height="100%">
-                                        <p class="card-text" style="font-weight: bolder;">Diploma recibido en <i>Mayo/2022</i></p>
-                                        <button class="btn btn-success" href="https://platzi.com/p/MrAgustin/curso/1272-sql-mysql/diploma/detalle/">Ir A Diploma</button>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="text-center col-12 col-lg-6">
-                                <div class="card m-2">
-                                    <div class="card-header bg-dark text-light">
-                                        <h3 class="card-title" style="font-weight:bolder;">Curso de Fundamentos Spring Boot</h3>
-                                    </div>
-                                    <div class="card-body">
-                                        <img src="img/courses-diploma/diploma-spring-boot_page-0001.jpg" alt="Diploma SpringBoot"width="100%" height="100%">
-                                        <p class="card-text" style="font-weight: bolder;">Diploma recibido en <i>Junio/2022</i></p>
-                                        <button class="btn btn-success" href="https://platzi.com/p/MrAgustin/curso/2317-spring-boot/diploma/detalle/">Ir A Diploma</button>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="row" id="catalogoProductos">
                             
                         </div>
 
@@ -252,6 +212,6 @@
         
         
     </div>
-
+    <script src="JS/Certificados y Datos.js"></script>
 </body>
 </html>
